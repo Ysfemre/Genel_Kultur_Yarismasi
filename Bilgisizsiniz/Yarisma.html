@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="Yarisma.css">
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body>
+
+    <div class="card animate__animated animate__fadeIn">
+        <div class="geridon"><span class="material-symbols-outlined">arrow_back</span><span class="geriDonClassi">Geri
+                dön</span></div>
+        <div class="liste">
+            <div class="kurallaryazisi">KURALLAR</div>
+            <ul class="yarismakurallari">
+                <li>Yarışma toplam 10 sorudan oluşmaktadır.</li>
+                <li>Her bir soru için toplam 15 saniye süre vardır</li>
+                <li>Süreyi aşılması durumunda soru deaktif olur ve boş sayılır.</li>
+            </ul>
+        </div>
+        <div class="buton"><button class="yarismayaBaslabutton">Başla</button></div>
+    </div>
+
+
+    <div class="sorular card animate__animated animate__fadeIn sorulardeaktif">
+        <div class="soru-card-bas">
+            <div class="soruIndex"></div>
+            <div class="ks"></div>
+        </div>
+        <div class="soru"></div>
+        
+        <div class="soru-card-alt">
+            <div class="sonrakiSoru sonrakisoruaktifdegil"><span class="sonrakiSoruSpani ">Sonraki Soru</span><span
+                    class="material-symbols-outlined">arrow_circle_right</span></div>
+                    <button class="BitirButton bitirbutonugizli">bitir</button>
+        </div>
+    </div>
+    <div class="sonuclar sonuclardeaktif animate__animated animate__fadeIn animate__delay-1s">
+    </div>
+
+    <script src="Yarisma.js"></script>
+</body>
+
+</html>

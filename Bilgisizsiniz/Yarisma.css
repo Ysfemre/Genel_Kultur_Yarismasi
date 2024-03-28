@@ -1,0 +1,225 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.card {
+    font-size: larger;
+    background-color: #F2CB05;
+    color: #030303;
+    margin-top: 200px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: "Madimi One", sans-serif;
+
+}
+
+.geridon {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.geridon:hover {
+    color: #4a4a4a;
+}
+
+.kurallaryazisi {
+    background-color: #030303;
+    color: #F2CB05;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 100px;
+}
+
+.buton {
+    text-align: center;
+}
+
+.yarismayaBaslabutton {
+    font-family: "Madimi One", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    border: 2px groove #F2CB05;
+    border-radius: 10px;
+    background-color: black;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.yarismayaBaslabutton:hover {
+    text-decoration: underline 3px double rgb(0, 0, 0);
+    font-weight: 650;
+    color: #030303;
+    background-color: #FFFFFF;
+}
+
+.sorular {
+    width: 50%;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F2CB05;
+    font-size: larger;
+    background-color: #F2CB05;
+    color: #030303;
+    margin-top: 35px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: "Madimi One", sans-serif;
+}
+
+.sorumetni {
+    padding-bottom: 25px;
+}
+
+.soru-card-bas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.siklar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sik1,
+.sik2,
+.sik3,
+.sik4,
+.sik5 {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sik11:hover,
+.sik22:hover,
+.sik33:hover,
+.sik44:hover,
+.sik55:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s
+}
+
+.soru-card-alt {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+
+.sonrakiSoru {
+    cursor: pointer;
+    font-family: "Madimi One", sans-serif;
+    background-color: #030303;
+    color: #FFFFFF;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.soruIndex,
+.kalanSure {
+    background-color: #030303;
+    color: #FFFFFF;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.sorulardeaktif {
+    display: none;
+}
+
+.sonrakisoruaktifdegil {
+    display: none;
+}
+
+.siklardeaktif {
+    cursor: no-drop;
+    background-color: #ebeaea;
+}
+
+.dogruCevapSecildi {
+    background-color: #80ff79;
+}
+
+.yanlisCevapSecildi {
+    background-color: hsl(0, 100%, 73%);
+}
+
+.kalanSure,
+.soruIndex {
+    padding: 4px;
+}
+.BitirButton{
+    font-family: "Madimi One", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    border: 2px groove #F2CB05;
+    border-radius: 10px;
+    background-color: black;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.BitirButton:hover {
+    text-decoration: underline 3px double rgb(0, 0, 0);
+    font-weight: 650;
+    color: #030303;
+    background-color: #FFFFFF;
+}
+
+.bitirbutonugizli {
+    display: none;
+}
+
+.sonuclar {
+    font-size: 20px;
+    margin-top: 150px;
+    background-color: #202022;
+    color: gold;
+    font-family: "Madimi One", sans-serif;
+    padding: 15px;
+    flex-direction: column;
+    gap: 15px;
+    border: 15px groove #202022;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+
+.tekrarBasla,
+.anaSayfayaDon {
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: "Madimi One", sans-serif;
+    background-color: aliceblue;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sonuclardeaktif {
+    display: none;
+}
